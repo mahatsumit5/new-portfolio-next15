@@ -70,7 +70,7 @@ export const BackgroundBeamsWithCollision = ({
     <div
       ref={parentRef}
       className={cn(
-        " bg-gradient-to-b relative flex  w-full justify-center overflow-hidden",
+        "min-h-screen bg-gradient-to-b relative flex  w-full justify-center overflow-hidden",
         // h-screen if you want bigger
         className
       )}

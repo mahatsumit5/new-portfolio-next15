@@ -17,7 +17,8 @@ export function TypewriterEffectSmoothDemo() {
 
     {
       text: "Sumit Mahat.",
-      className: "md:text-[5rem] text-blue-500 dark:text-blue-500",
+      className:
+        "md:text-[5rem] text-transparent  bg-clip-text bg-gradient-to-r from-primary to-secondary    [text-shadow:0_0_rgba(0,0,0,0.1)]",
     },
   ];
   return (
