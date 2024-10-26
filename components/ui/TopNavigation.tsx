@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { FloatingDock } from "./floating-dock";
 import { links } from "@/constants/constants";
