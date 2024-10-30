@@ -68,7 +68,7 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="min-h-[280vh]  flex flex-col items-center py-40 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50"
+      className=" h-auto md:min-h-[280vh]  flex flex-col items-center md:py-40 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50"
     >
       <motion.h2
         style={{
@@ -92,7 +92,7 @@ export const MacbookScroll = ({
         translate={translate}
       />
       {/* Base area */}
-      <div className="h-[22rem] w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
+      <div className="h-[32rem] w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
         {/* above keyboard bar */}
         <div className="h-10 w-full relative">
           <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />

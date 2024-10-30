@@ -5,10 +5,7 @@ import { links } from "@/constants/constants";
 
 const TopNavigation = () => {
   return (
-    <FloatingDock
-      items={links}
-      desktopClassName="w-[500px] justify-center sticky top-0 bg-background z-50"
-    />
+    <FloatingDock items={links} desktopClassName="w-[500px] justify-center " />
   );
 };
 
